@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+  color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 8px;
+  width: 250px;
+  background-color: black;
+  color: green;
+  border: 1px solid green;
+}
