@@ -60,17 +60,16 @@ http://localhost:8000
 task-s1-07/
 ├── level-1/
 │   ├── exercise-1/
+│   │    └── index.php
 │   │
 │   └── exercise-2/
-│       
+│       ├── style.css
+│       ├── form.html
+│       └── TryCatch.php
 │
-├── level-2/
-│   └── exercise-1/
-│       
+├── level-2/       
 │
-├── level-3/
-│   └── exercise-1/
-│       
+├── level-3/ 
 │
 ├── test/
 │   └── index.php
@@ -100,8 +99,8 @@ Advanced validation using filters and regular expressions
 
 ### Level 1
 
-* [ ] 1. Handle division by zero using try-catch
-* [ ] 2. Form validation with basic rules
+* [x] 1. Handle division by zero using try-catch
+* [x] 2. Form validation with basic rules
 
 ### Level 2
 

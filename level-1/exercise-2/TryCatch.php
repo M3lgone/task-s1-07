@@ -30,7 +30,7 @@ try {
     }
 
     $_SESSION["username"] = $user;
-    echo "Username: " . $_SESSION["username"] . "<br>";
+    echo "Username: " . $_SESSION["username"];
 
     $_SESSION["email"] = $mail;
     echo "Email: " .  $_SESSION["email"];
