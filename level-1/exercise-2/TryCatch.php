@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 session_start();
 
 try {
@@ -15,6 +17,9 @@ try {
     if (is_numeric($user)) {
         throw new Exception("Username cannot be only numbers");
     }
+    if (strlen($user) < 2) {
+        throw new Exception("Username cannot be one char");
+    }
 
     if (!isset($_POST["email"])) {
         throw new Exception("Email does not exist");
@@ -27,6 +32,9 @@ try {
     }
     if (!filter_var($mail, FILTER_VALIDATE_EMAIL)) {
         throw new Exception("This is not a email");
+    }
+    if (strtoupper($mail)) {
+        throw new Exception("Email must be lower case");
     }
 
     $_SESSION["username"] = $user;

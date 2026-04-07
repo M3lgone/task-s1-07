@@ -72,7 +72,6 @@ task-s1-07/
 ├── level-3/ 
 │
 ├── test/
-│   └── index.php
 │
 ├── .gitignore
 └── README.md
